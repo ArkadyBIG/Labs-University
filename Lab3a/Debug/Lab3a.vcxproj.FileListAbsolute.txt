@@ -1,0 +1,4 @@
+C:\MyProjects\Visual Studio\LabkiJerebu\Lab3a\Debug\Lab3a.exe
+C:\MyProjects\Visual Studio\LabkiJerebu\Lab3a\Debug\Lab3a.pdb
+C:\MyProjects\C++\LabkiJerebu\Lab3a\Debug\Lab3a.exe
+C:\MyProjects\C++\LabkiJerebu\Lab3a\Debug\Lab3a.pdb

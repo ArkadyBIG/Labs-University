@@ -1,0 +1,8 @@
+﻿  Lab3a.cpp
+  ListToSort.cpp
+C:\MyProjects\C++\LabkiJerebu\Lab3a\ListToSort.cpp(110,40): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+C:\MyProjects\C++\LabkiJerebu\Lab3a\ListToSort.cpp(110,34): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+C:\MyProjects\C++\LabkiJerebu\Lab3a\ListToSort.cpp(114,48): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+C:\MyProjects\C++\LabkiJerebu\Lab3a\ListToSort.cpp(114,40): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+  Generating Code...
+  Lab3a.vcxproj -> C:\MyProjects\C++\LabkiJerebu\Lab3a\Debug\Lab3a.exe
