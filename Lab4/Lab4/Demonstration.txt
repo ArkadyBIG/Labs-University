@@ -1,0 +1,74 @@
+Choose type of Tree:     1 - Regular, 2 - Binary. 0 - exit, 1 - go back.
+>>1
+1 - to randomize tree, 2 - live empty .    0 - exit , -1 - go back
+>>1
+1 - view whole tree, 2 - interactive view with editing .  0 - exit, -1 - main menu
+>>1
+1
+   >0
+      >18
+         >4
+            .11
+         .1
+1 - view whole tree, 2 - interactive view with editing .  0 - exit, -1 - main menu
+>>2
+\
+Path: {}
+--> 1
+     >0
+Type index of node to enter, -3 - to edit current branch. '-1' - to go back. '-2' - to exit
+>>0
+\
+Path: {0}
+--> 0
+     >18
+Type index of node to enter, -3 - to edit current branch. '-1' - to go back. '-2' - to exit
+>>0
+\
+Path: {0, 0}
+--> 18
+     >4
+     .1
+Type index of node to enter, -3 - to edit current branch. '-1' - to go back. '-2' - to exit
+>>-3
+Type index of child to delete. '-3' - to add child. '-2' - to exit
+>>-3
+Enter the value
+>>123
+Path: {0, 0}
+--> 18
+     >4
+     .1
+     .123
+Type index of node to enter, -3 - to edit current branch. '-1' - to go back. '-2' - to exit
+>>-3
+Type index of child to delete. '-3' - to add child. '-2' - to exit
+>>2
+Path: {0, 0}
+--> 18
+     >4
+     .1
+Type index of node to enter, -3 - to edit current branch. '-1' - to go back. '-2' - to exit
+>>-2
+\
+1 - view whole tree, 2 - interactive view with editing .  0 - exit, -1 - main menu
+>>1
+1
+   >0
+      >18
+         >4
+            .11
+         .1
+1 - view whole tree, 2 - interactive view with editing .  0 - exit, -1 - main menu
+>>0
+
+
+
+
+
+
+
+
+
+
+
