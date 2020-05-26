@@ -4,6 +4,7 @@
 #include <Windows.h>
 #include "Tree.h"
 #include "BinaryTree.h"
+#include "ExpressionTree.h"
 using namespace std;
 int user_input(string text = "")
 {
@@ -94,16 +95,29 @@ void Interactive_Regular_Tree_mode()
 		break;
 	}
 }
+void Interactive_Expression_Tree()
+{
+	cout << "Enter expression:           Exampe: 12+23*-1*sin(99)--1\n>>";
+	string expression;
+	cin >> expression;
+	cout << "Your expression Tree :\n";
+	ExpressionTree tree(expression);
+	tree.print();
+	cout << "Answer is " << tree.answer();// << endl;
+}
 void Interactive_mode()
 {
 	while(true)
-	switch (user_input("Choose type of Tree:     1 - Regular, 2 - Binary. 0 - exit, 1 - go back."))
+	switch (user_input("Choose type of Tree:     1 - Regular, 2 - Binary, 3 - Expression Tree. 0 - exit, 1 - go back."))
 	{
 	case 1:
 		Interactive_Regular_Tree_mode();
 		break;
 	case 2:
 		Interactive_Binary_Tree_mode();
+		break;
+	case 3:
+		Interactive_Expression_Tree();
 		break;
 	case 0:
 		exit(0);
